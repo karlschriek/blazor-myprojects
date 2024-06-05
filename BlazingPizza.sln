@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizza.Server", "BlazingPizza\BlazingPizza.Server\BlazingPizza.Server.csproj", "{17ABC72B-DF4D-44CF-A319-E454395A7587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizza.Client", "BlazingPizza\BlazingPizza.Client\BlazingPizza.Client.csproj", "{09E717E8-BD17-4F36-9EE7-A88A81C74E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizza.ComponentsLibrary", "BlazingPizza\BlazingPizza.ComponentsLibrary\BlazingPizza.ComponentsLibrary.csproj", "{6BBB4516-8C16-42BC-96E9-F1C1F4D6F4CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizza.Shared", "BlazingPizza\BlazingPizza.Shared\BlazingPizza.Shared.csproj", "{6A2038C4-6469-4F33-A672-CD72BE625C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17ABC72B-DF4D-44CF-A319-E454395A7587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17ABC72B-DF4D-44CF-A319-E454395A7587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17ABC72B-DF4D-44CF-A319-E454395A7587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17ABC72B-DF4D-44CF-A319-E454395A7587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E717E8-BD17-4F36-9EE7-A88A81C74E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E717E8-BD17-4F36-9EE7-A88A81C74E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E717E8-BD17-4F36-9EE7-A88A81C74E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E717E8-BD17-4F36-9EE7-A88A81C74E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBB4516-8C16-42BC-96E9-F1C1F4D6F4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBB4516-8C16-42BC-96E9-F1C1F4D6F4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBB4516-8C16-42BC-96E9-F1C1F4D6F4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBB4516-8C16-42BC-96E9-F1C1F4D6F4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2038C4-6469-4F33-A672-CD72BE625C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2038C4-6469-4F33-A672-CD72BE625C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2038C4-6469-4F33-A672-CD72BE625C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2038C4-6469-4F33-A672-CD72BE625C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
