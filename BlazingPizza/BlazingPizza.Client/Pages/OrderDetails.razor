@@ -6,12 +6,12 @@
 <div class="main">
     @if (invalidOrder)
     {
-    <h2>Nope</h2>
-    <p>Sorry, this order could not be loaded.</p>
+        <h2>Nope</h2>
+        <p>Sorry, this order could not be loaded.</p>
     }
     else if (orderWithStatus is null)
     {
-    <text>Loading...</text>
+        <text>Loading...</text>
     }
     else
     {
@@ -27,6 +27,9 @@
         <div class="track-order-body">
             <div class="track-order-details">
                 <OrderReview Order="orderWithStatus.Order" />
+            </div>
+            <div class="track-order-map">
+                <Map Zoom="13" Markers="orderWithStatus.MapMarkers" />
             </div>
         </div>
     </div>
